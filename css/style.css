@@ -353,6 +353,43 @@ select:focus {
 
 /* MATERIALS */
 
+.materials .material-item {
+    background: #E5E5E5;
+    padding-right: 30px;
+    padding-left: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.material-col {
+    margin-bottom: 40px;
+}
+
+.materials .material-item a{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.materials .material-item h4 {
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.materials .material-item span {
+    font-size: 14px;
+    line-height: 17px;
+    color: #343A40;
+}
+
+.metal-pic img {
+    width: 80px;
+    height: 320px;
+}
 
 /* EQUIPMENT */
 
@@ -418,3 +455,4 @@ select:focus {
     width: 100%;
     height: 365px;
 }
+
