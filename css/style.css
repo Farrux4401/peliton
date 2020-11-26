@@ -300,6 +300,121 @@ select:focus {
     color: #FFFFFF;
 }
 
-.price_list  .nav-pills .nav-link {
+.price_list .nav-pills .nav-link {
     border-radius: 0;
+}
+
+.price_btm_txt {
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+/* consultation" */
+
+.consultation {
+    margin: 120px 0;
+    background: #E5E5E5;
+    padding: 35px 65px;
+}
+
+.consultation .cons-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.consultation .cons-txt {
+    font-size: 16px;
+    color: #000000;
+}
+
+.consultation .cons-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.consultation .cons-btn a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #343A40;
+    border-radius: 3px;
+    padding: 11px 20px 14px 20px;
+}
+
+/* MATERIALS */
+
+
+/* EQUIPMENT */
+
+.equipment .eqip-pic img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.equipment .eqip-left-txt {
+    /* text-align: right; */
+    margin-left: 60px;
+}
+
+.equipment .eqip-left-txt p {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+.equipment .eqip-left-txt ul {
+    margin-left: 60px;
+}
+
+.equipment .right_txt {
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.equipment .right_txt h4 {
+    font-size: 24px;
+    line-height: 140%;
+    color: #020202;
+    margin-bottom: 20px;
+}
+
+.equipment .right_txt p {
+    font-size: 16px;
+    line-height: 140%;
+    padding-left: 50px;
+}
+
+.youtube_link {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.youtube_link a {
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.youtube_link a img {
+    width: 26.67px;
+    height: 26.67px;
+    display: inline-block;
+}
+
+.youtube_video iframe{
+    width: 100%;
+    height: 365px;
 }
