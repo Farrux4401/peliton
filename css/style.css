@@ -185,7 +185,8 @@ select:focus {
 }
 
 .main_title {
-    font-weight: 900;
+    font-family: 'Inter Extra Bold';
+    font-weight: bold;
     font-size: 72px;
     line-height: 100%;
     display: flex;
@@ -805,6 +806,7 @@ select:focus {
 .footer-corp {
     padding: 30px 0;
 }
+
 .footer-corp .text-orange {
     font-size: 16px;
     line-height: 140%;
@@ -847,4 +849,142 @@ select:focus {
     font-size: 14px;
     line-height: 140%;
     color: #343A40;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+
+    .phone_text,
+    .phone_num {
+        font-size: 14px;
+    }
+
+    .sales_btn button {
+        padding: 14px 6px;
+    }
+
+    .main_title {
+        font-size: 36px;
+    }
+
+    .main_screen {
+        padding: 15px 50px 0 51px;
+    }
+
+    .left-title {
+        font-size: 18px;
+    }
+
+    .left_text {
+        font-size: 14px;
+    }
+
+    .main_btn {
+        margin-bottom: 33px;
+    }
+
+    .machine {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .rus-map .map-block {
+        padding: 50px 50px 30px 30px;
+    }
+
+    .form-btn button {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .opportunity-item p {
+        font-size: 13px;
+    }
+
+    .opportunity-item h4 {
+        font-size: 18px;
+    }
+
+    .materials .material-item h4 {
+        font-size: 16px;
+    }
+
+    .equipment .right_txt {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .equipment .right_txt h4 {
+        font-size: 24px;
+    }
+
+    .equipment .eqip-left-txt p {
+        font-size: 18px;
+        color: #E08439;
+    }
+
+    .equipment .eqip-left-txt ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .equipment .eqip-left-txt ul {
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .equipment .right_txt p {
+        padding: 0;
+    }
+
+    .machine {
+        padding: 150px 0;
+    }
+
+    .machine .machine-item img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .machine .machine-item {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .order {
+        padding: 20px 0;
+    }
+
+    .order .order-item {
+        padding: 0;
+
+    }
+
+    .drawings {
+        padding: 100px 0;
+    }
+
+    .drawings .drawings-item {
+        padding: 0;
+    }
+    .rus-map .map-block {
+        padding: 20px;
+    }
+
+    .form-section .attach-file {
+        width: 228px;
+        height: 180px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .price_list .nav {
+        flex-wrap: wrap;
+    }
 }
