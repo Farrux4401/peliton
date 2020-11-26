@@ -240,8 +240,9 @@ select:focus {
 
 /* opportunity */
 
-.custom-row {
-    margin-bottom: 175px;
+.opportunity {
+    padding-top: 55px;
+    padding-bottom: 175px;
 }
 
 .opportunity-item h4 {
@@ -259,4 +260,46 @@ select:focus {
     text-align: center;
     color: #343A40;
     padding: 0 30px;
+}
+
+/* site_title */
+.site_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+/* price_list */
+
+.price_list .nav {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.price_list .nav-item {
+    width: 100%;
+    margin: 0 5px;
+}
+
+.price_list .nav-link {
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    background: #C4C4C4;
+    padding: 10px 0;
+}
+
+.price_list .nav-pills .nav-link.active,
+.price_list .nav-pills .show>.nav-link {
+    background: #343A40;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+
+.price_list  .nav-pills .nav-link {
+    border-radius: 0;
 }
