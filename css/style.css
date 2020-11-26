@@ -461,6 +461,7 @@ select:focus {
 .machine {
     padding: 170px;
 }
+
 .machine .machine-item {
     display: flex;
     align-items: center;
@@ -497,6 +498,7 @@ select:focus {
 .benefits {
     padding-bottom: 170px;
 }
+
 .benefits .benefits-item {
     display: flex;
     flex-direction: column;
@@ -512,7 +514,7 @@ select:focus {
     text-align: center;
 }
 
-.benefits .benefits-item p{
+.benefits .benefits-item p {
     font-size: 16px;
     line-height: 140%;
     color: #000000;
@@ -561,4 +563,288 @@ select:focus {
     align-items: center;
     color: #000000;
     padding-left: 25px;
+}
+
+
+
+/* drawings */
+
+.drawings {
+    padding: 130px;
+}
+
+.drawings .drawings-txt {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.drawings .drawings-item {
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+    margin-bottom: 40px;
+}
+
+.drawings .drawings-item img {
+    width: 48px;
+    height: 48px;
+}
+
+.drawings .drawings-item p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-left: 20px;
+}
+
+
+/* rus-map */
+.rus-map {
+    padding-bottom: 130px;
+}
+
+.rus-map .map-block {
+    background: #E5E5E5;
+    padding: 50px 50px 65px 30px;
+}
+
+.rus-map .map-block h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.rus-map .map-block .map-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rus-map .map-block .map-item img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+    margin-right: 20px;
+}
+
+.rus-map .map-block .map-item p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #343A40;
+}
+
+.rus-map .map-pic img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+/* Forma */
+
+.form-section {
+    padding-bottom: 100px;
+}
+
+.form-block {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.form-section .form-group input {
+    background: #F0F0F0;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.form-section .form-group label {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.form-section .form-group textarea {
+    background: #F0F0F0;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.form-section .attach-file {
+    background: #F0F0F0;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 380px;
+    height: 170px;
+    padding: 20px 0 0 35px;
+}
+
+.form-section .attach-file p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.form-section .form-vote {
+    padding-top: 33px;
+}
+
+.form-section .form-vote p {
+    font-size: 24px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+/*  */
+.radio {
+    --border-radius: 50%;
+    padding: 2px;
+}
+
+.radio input[type="radio"] {
+    display: none;
+}
+
+.radio label {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #000;
+    border-radius: var(--border-radius);
+
+    box-sizing: border-box;
+}
+
+.radio label::before {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: var(--border-radius);
+
+    background-color: transparent;
+
+    transform: translate(-50%, -50%);
+
+    transition: background-color 0.25s;
+}
+
+.radio :checked~label::before {
+    background-color: #000;
+}
+
+.radio label {
+    color: grey;
+
+    vertical-align: top;
+
+    transition: color 0.25s;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.form-btn {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.form-btn button {
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E08439;
+    border-radius: 3px;
+    padding: 12px 42px;
+    border: 0;
+}
+
+.form-btn p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    padding-right: 160px;
+    color: #000000;
+}
+
+/* FOOTER */
+.footer-corp {
+    padding: 30px 0;
+}
+.footer-corp .text-orange {
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #E08439;
+    margin-bottom: 10px;
+}
+
+.footer-corp .links a {
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.footer-corp .f-address {
+    font-size: 12px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-right: 50px;
+    display: block;
+    /* margin-bottom: 20px; */
+}
+
+.politics {
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #343A40;
+}
+
+.soc-txt {
+    font-size: 14px;
+    line-height: 140%;
+    color: #343A40;
 }
