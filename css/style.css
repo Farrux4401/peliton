@@ -236,3 +236,27 @@ select:focus {
     color: #FFFFFF;
     transition: .3s all ease;
 }
+
+
+/* opportunity */
+
+.custom-row {
+    margin-bottom: 175px;
+}
+
+.opportunity-item h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.opportunity-item p {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #343A40;
+    padding: 0 30px;
+}
